@@ -18,10 +18,10 @@ see [CREDITS.md](CREDITS.md)
 
 1. Add these lines to your bash profile:
   - `# QT`
-    `export PATH="/usr/local/opt/qt@5/bin:$PATH"`
-    `export LDFLAGS="-L/usr/local/opt/qt@5/lib"`
-    `export CPPFLAGS="-I/usr/local/opt/qt@5/include"`
-    `export PKG_CONFIG_PATH="/usr/local/opt/qt@5/lib/pkgconfig"`
+  - `export PATH="/usr/local/opt/qt@5/bin:$PATH"`
+  - `export LDFLAGS="-L/usr/local/opt/qt@5/lib"`
+  - `export CPPFLAGS="-I/usr/local/opt/qt@5/include"`
+  - `export PKG_CONFIG_PATH="/usr/local/opt/qt@5/lib/pkgconfig"`
 
 2. Refresh/reload your bash profile
 
