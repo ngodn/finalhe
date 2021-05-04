@@ -1,7 +1,4 @@
 cmake_minimum_required(VERSION 3.0)
-if(${CMAKE_VERSION} VERSION_GREATER_EQUAL "3.17.0")
-    cmake_policy(SET CMP0100 NEW)
-endif()
 
 project(finalhe C CXX)
 
@@ -12,6 +9,10 @@ set_property(GLOBAL PROPERTY PREDEFINED_TARGETS_FOLDER "CMake")
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 14)
+
+if (POLICY CMP0025)
+    cmake_policy(SET CMP0025 NEW)
+  endif ()
 
 if (MSVC)
     option (MSVC_STATIC_RUNTIME "Link to MSVC static runtime libraries" OFF)

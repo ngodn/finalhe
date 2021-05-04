@@ -11,7 +11,6 @@
 #include <utime.h>
 #include <unistd.h>
 #endif
-#include <string.h>
 #include <fcntl.h>
 #include <stdint.h>
 #include <stdio.h>
@@ -25,6 +24,7 @@
 #include "endian-utils.h"
 #include "psvimg.h"
 #include "utils.h"
+#include "string.h"
 
 #define MAX_PATH_LEN 1024
 

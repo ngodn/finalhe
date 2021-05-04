@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libscrypto.a CMakeFiles/scrypto.dir/aes.c.o CMakeFiles/scrypto.dir/aes_x86.c.o CMakeFiles/scrypto.dir/base64.c.o CMakeFiles/scrypto.dir/sc_crc32.c.o CMakeFiles/scrypto.dir/sc_crc32_x86.c.o CMakeFiles/scrypto.dir/sha256.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libscrypto.a
