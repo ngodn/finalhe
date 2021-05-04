@@ -12,7 +12,7 @@ see [CREDITS.md](CREDITS.md)
 
 ### Prerequisites 
 
-1. macOS: install [brew](https://brew.sh), install libusb & qt through brew (`brew install libusb qt`)
+1. macOS: install [brew](https://brew.sh)
 
 ### Build from source
 
