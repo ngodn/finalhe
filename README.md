@@ -13,6 +13,7 @@ see [CREDITS.md](CREDITS.md)
 ### Prerequisites 
 
 1. macOS: install [brew](https://brew.sh)
+2. Clone the `macbigsur` branch
 
 ### Build from source
 
